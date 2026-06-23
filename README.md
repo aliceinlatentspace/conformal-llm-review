@@ -20,6 +20,8 @@ To cite our paper or the work in this repository, please see below.
 Placeholder
 ```
 
+## Contents
+
 You can use quick navigation below to browse the categories, or branch nodes, we propose in our hierarchichal tree-structured taxonomy of conformal methods for large language models (LLMs). Note that for ease-of-use we do not categorise by leaf nodes except in selected instances, and we provide an additional category combining the first two branch nodes for specific articles. For more information please refer to Section 5 in our paper.
 
 - [Open-ended Conformal Calibration](#open-ended-conformal-calibration)
@@ -70,6 +72,8 @@ Date | <div style="width:700px">Paper</div> | Links |
 | 10/2025 | COPU: Conformal Prediction for Uncertainty Quantification in Natural Language Generation | [[Preprint](https://arxiv.org/abs/2502.12601)] |
 | 11/2025 | Analyzing Uncertainty of LLM-as-a-Judge: Interval Evaluations with Conformal Prediction | [[Paper](https://aclanthology.org/2025.emnlp-main.569/)] [[Code](https://github.com/BruceSheng1202/Analyzing-Uncertainty-of-LLM-as-a-Judge)] |
 
+<sub>[Return to contents](#contents)</sub>
+
 # Close-ended Conformal Calibration
 
 **Close-ended Conformal Calibration** considers tasks where the language model's output is constrained to a predefined set of responses. A typical example is multiple-choice question answering (QA), where the model selects from $n$ answer options. It can also apply to visual QA tasks, where the output space is also restricted to a fixed set. In this setting, the LVLM must use visual information from the image to infer the correct answer. The illustration below gives this example. As before, the green check mark indicates that the answer is correct, and the red cross indicates that it is incorrect.
@@ -118,6 +122,8 @@ Date | <div style="width:700px">Paper</div> | Links |
 | 12/2025 | Reliable outputs from large language models for multi-label classification tasks  | [[Patent](https://patents.google.com/patent/US12499134B1/en)] |
 | 02/2026 | RACER: Risk-Aware Calibrated Efficient Routing for Large Language Models | [[Preprint](https://arxiv.org/abs/2603.06616)] |
 
+<sub>[Return to contents](#contents)</sub>
+
 # Open and Close-ended Conformal Calibration
 
 This category is for papers which explore both open-ended and close-ended tasks.
@@ -163,6 +169,8 @@ Date | <div style="width:700px">Paper</div> | Links |
 | 10/2025 | Multi-Condition Conformal Selection | [[Paper](https://openreview.net/pdf?id=giL8Q1V26J)] [[Poster](https://iclr.cc/media/PosterPDFs/ICLR%202026/10008124.png)] [[Reviews](https://openreview.net/forum?id=giL8Q1V26J)] [[Code](https://github.com/hqy-new/mccs-iclr26)] |
 | 10/2025 | Multivariate Conformal Selection | [[Paper](https://proceedings.mlr.press/v267/bai25d.html)] [[Poster](https://icml.cc/media/PosterPDFs/ICML%202025/44490.png)] [[Slides](https://icml.cc/virtual/2025/poster/44490)] [[Reviews](https://openreview.net/forum?id=g2tr7nA4pS)] [[Code](https://github.com/Tian-Bai/mcs)] |
 
+<sub>[Return to contents](#contents)</sub>
+
 # Conformal Abstention
 
 **Conformal Abstention** addresses settings in which the language model cannot provide a reliable answer, such as when the context is ambiguous or the task domain falls outside of the model's parametric knowledge. In such cases, the model abstains from responding rather than generating a plausible but non-factual answer (a hallucination). The illustration below gives this example. The green check mark indicates that the answer is correct, and the red cross indicates that it is incorrect. A correct answer in this case is choosing to abstain, rather than giving a hallucinated response.
@@ -181,6 +189,8 @@ Date | <div style="width:700px">Paper</div> | Links |
 | 10/2025 | SAFER: Risk-Constrained Sample-then-Filter in Large Language Models | [[Paper](https://openreview.net/pdf?id=kJmLmOvwLC)] [[Poster](https://iclr.cc/media/PosterPDFs/ICLR%202026/10007799.png)] [[Slides](https://iclr.cc/media/iclr-2026/Slides/10007799_dyRVUSZ.pdf)] [[Website](https://safer-ericlab.github.io/)] [[Reviews](https://openreview.net/forum?id=kJmLmOvwLC)] [[Code](https://github.com/UCSB-AI/SAFER)] |
 | 10/2025 | Robust Uncertainty Quantification for Self-Evolving Large Language Models via Continual Domain Pretraining | [[Preprint](https://arxiv.org/abs/2510.22931)] |
 | 10/2025 | ATTS: Asynchronous Test-Time Scaling via Conformal Prediction | [[Paper](https://openreview.net/pdf?id=YM3SskmtCE)] [[Reviews](https://openreview.net/forum?id=YM3SskmtCE)] [[Code](https://github.com/menik1126/Asynchronous-Test-Time-Scaling)] |
+
+<sub>[Return to contents](#contents)</sub>
 
 # Conformal Factuality
 
@@ -206,6 +216,8 @@ Date | <div style="width:700px">Paper</div> | Links |
 | 10/2025 | Multi-LLM Adaptive Conformal Inference for Reliable LLM Response | [[Paper](https://openreview.net/pdf?id=opuQH9Xyu9)] [[Poster](https://iclr.cc/media/PosterPDFs/ICLR%202026/10007370.png)] [[Reviews](https://openreview.net/forum?id=opuQH9Xyu9)] [[Code](https://github.com/MLAI-Yonsei/MACI)] |
 | 11/2025 | Towards Statistical Factuality Guarantee for Large Vision-Language Models | [[Paper](https://aclanthology.org/2025.emnlp-main.576/)] |
 | 03/2026 | Conditional Factuality Controlled LLMs with Generalization Certificates via Conformal Sampling | [[Preprint](https://arxiv.org/abs/2603.27403)] [[Code](https://github.com/FlynnYe/CFC-LLMs)] |
+
+<sub>[Return to contents](#contents)</sub>
 
 # Conformal Retrieval Augmented Generation
 
