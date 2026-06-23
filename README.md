@@ -150,7 +150,7 @@ Date | <div style="width:700px">Paper</div> | Links |
 
 ## Conformal FDR-controlling Methods
 
-This subcategory specifically includes papers that propose methods to control the false dicovery rate or FDR.
+This subcategory specifically includes papers that propose methods to control the false discovery rate or FDR.
 
 Date | <div style="width:700px">Paper</div> | Links |
 |-------|-------|-------|
@@ -165,7 +165,7 @@ Date | <div style="width:700px">Paper</div> | Links |
 
 # Conformal Abstention
 
-**Conformal Abstention** addresses settings in which the language model cannot provide a reliable answer, such as when the context is ambiguous or the task domain falls outside of the model's parametric knowledge. In such cases, the model abstains from responding rather than generating a plausible but non-factual answer (a hallucination). The illustration below gives this example. As before, the green check mark indicates that the answer is correct, and the red cross indicates that it is incorrect. A correct answer in this case is choosing to abstain, rather than giving a hallucinated response.
+**Conformal Abstention** addresses settings in which the language model cannot provide a reliable answer, such as when the context is ambiguous or the task domain falls outside of the model's parametric knowledge. In such cases, the model abstains from responding rather than generating a plausible but non-factual answer (a hallucination). The illustration below gives this example. The green check mark indicates that the answer is correct, and the red cross indicates that it is incorrect. A correct answer in this case is choosing to abstain, rather than giving a hallucinated response.
 
 <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/dark/abstention_diagram_github.png">
@@ -232,7 +232,7 @@ Date | <div style="width:700px">Paper</div> | Links |
 
 ## Conformal Retrieval Augmented Generation with Factuality Control
 
-This subcategory specifically includes papers that propose methods for factuality control using information retrieval mechanisms.
+This subcategory includes papers that propose methods for factuality control using information retrieval mechanisms.
 
 Date | <div style="width:700px">Paper</div> | Links |
 |-------|-------|-------|
